@@ -14,19 +14,19 @@ In this assignment, you will design the tables to hold data in the CSVs, import 
 
 Note: You may hear the term "Data Modeling" in place of "Data Engineering," but they are the same terms. Data Engineering is the more modern wording instead of Data Modeling.
 
-#### Data Modeling
+## Data Modeling
 
 Inspect the CSVs and sketch out an ERD of the tables using the tool [http://www.quickdatabasediagrams.com](http://www.quickdatabasediagrams.com).
 
 ![ERD.png](EmployeeSQL/images/ERD.png)
 
-#### Data Engineering
+## Data Engineering
 
 * Use the information created a table schema for each of the six CSV files. Specify data types, primary keys, foreign keys, and other constraints.
 * Created tables in the following order: titles, employees, departments, dept_manager, dept_emp and salaries to handle foreign keys.
 * Imported each CSV file into the corresponding SQL table. Imported the data in the same order that the tables were created and account for the headers when importing to avoid errors.
 
-#### Data Analysis
+## Data Analysis
 
 Once the Data Engineering was completed to make the entire database available in PostgreSQL, queried the data as follows:
 
