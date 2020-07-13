@@ -6,29 +6,28 @@
 
 It is a beautiful spring day, and it is two weeks since you have been hired as a new data engineer at Pewlett Hackard. Your first major task is a research project on employees of the corporation from the 1980s and 1990s. All that remain of the database of employees from that period are six CSV files.
 
-In this assignment, you will design the tables to hold data in the CSVs, import the CSVs into a SQL database, and answer questions about the data. In other words, you will perform:
+In this project, I will design the tables to hold data in the CSVs, import the CSVs into a SQL database, and answer questions about the data. In other words, I will perform:
 
 1. Data Engineering
 
 3. Data Analysis
 
-Note: You may hear the term "Data Modeling" in place of "Data Engineering," but they are the same terms. Data Engineering is the more modern wording instead of Data Modeling.
 
 ## Data Modeling
 
-Inspect the CSVs and sketch out an ERD of the tables using the tool [http://www.quickdatabasediagrams.com](http://www.quickdatabasediagrams.com).
+Inspected the CSVs and sketched out an ERD of the tables using the tool [http://www.quickdatabasediagrams.com](http://www.quickdatabasediagrams.com).
 
 ![ERD.png](EmployeeSQL/images/ERD.png)
 
 ## Data Engineering
 
-* Use the information created a table schema for each of the six CSV files. Specify data types, primary keys, foreign keys, and other constraints.
+* Using the information created a table schema for each of the six CSV files. Specified data types, primary keys, foreign keys, and other constraints.
 * Created tables in the following order: titles, employees, departments, dept_manager, dept_emp and salaries to handle foreign keys.
-* Imported each CSV file into the corresponding SQL table. Imported the data in the same order that the tables were created and account for the headers when importing to avoid errors.
+* Imported each CSV file into the corresponding SQL table. Imported the data in the same order that the tables were created and accounted for the headers when importing to avoid errors.
 
 ## Data Analysis
 
-Once the Data Engineering was completed to make the entire database available in PostgreSQL, queried the data as follows:
+Once the Data Engineering was complete and the entire database was available in PostgreSQL, queried the data as follows:
 
 1. List the following details of each employee: employee number, last name, first name, sex, and salary.
 
