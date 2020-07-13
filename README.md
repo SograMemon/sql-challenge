@@ -49,19 +49,35 @@ Once you have a complete database, do the following:
 
 1. List the following details of each employee: employee number, last name, first name, sex, and salary.
 
+![query1.png](EmployeeSQL/images/query1.png)
+
 2. List first name, last name, and hire date for employees who were hired in 1986.
+
+![query2.png](EmployeeSQL/images/query2.png)
 
 3. List the manager of each department with the following information: department number, department name, the manager's employee number, last name, first name.
 
+![query3.png](EmployeeSQL/images/query3.png)
+
 4. List the department of each employee with the following information: employee number, last name, first name, and department name.
+
+![query4.png](EmployeeSQL/images/query4.png)
 
 5. List first name, last name, and sex for employees whose first name is "Hercules" and last names begin with "B."
 
+![query5.png](EmployeeSQL/images/query5.png)
+
 6. List all employees in the Sales department, including their employee number, last name, first name, and department name.
+
+![query6.png](EmployeeSQL/images/query6.png)
 
 7. List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name.
 
+![query7.png](EmployeeSQL/images/query7.png)
+
 8. In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
+
+![query8.png](EmployeeSQL/images/query8.png)
 
 ## Bonus (Optional)
 
